@@ -1,0 +1,52 @@
+h1 {
+    color: #1e6e87;
+    margin-left: 30px;
+    font-size: 50px;
+    font-family:fantasy;
+    font-weight: 100;
+}
+
+p,h2{
+    text-align: center;
+}
+
+.Menu{
+    margin-right: 30px;
+}
+
+.Menu a{
+    margin-left: 20px;
+
+}
+
+.Header{
+    background-color: #85d8f4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Item{
+    position:relative;
+    background-color: #1389c8;
+    text-align: center;
+}
+
+.Item p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.Grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    background-color: #90e0f8;
+    text-align: center
+}
+
+.Footer{
+    background-color: #000f00;
+    display: flex;
+    justify-content: flex-end;
+}
